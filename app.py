@@ -96,7 +96,7 @@ with st.sidebar:
     st.markdown("""
     **Example Questions (non-exhaustive list)**
     - What work experience does Anna have?
-    - What publications does Anna have?
+    - What publications did Anna work on?
     - What programming languages does Anna know?
     - What soft skills does Anna have?
     - What experience does she have with Machine Learning?
