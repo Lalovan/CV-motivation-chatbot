@@ -1,4 +1,9 @@
 # Anna's CV and Motivation Chatbot #
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
+![Ollama](https://img.shields.io/badge/Ollama-Supported-black?logo=ollama)
+![Groq API](https://img.shields.io/badge/Groq-API-orange?logo=groq)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
 At a Glance: 
 A retrieval-grounded LLM assistant that answers questions about my CV and professional motivation as a Data Scientist, in any language.
@@ -52,22 +57,15 @@ XXXXXXXXXXX
 - Vector Store: FAISS 
 - Safety of data is ensured by adding API keys and personal information to safety space of streamlit
 
-## 7. How the Multilingual Handling Works ##
 
-- The CV and motivation information is stored only in English.
-- Users may ask questions in English, Dutch, or French.
-- The LLM performs cross-lingual semantic reasoning.
-- The answer is always generated in the same language as the question.
-- All responses are strictly grounded in the CV and motivation content.
-
-## 8. Future Improvements ##
+## 7. Future Improvements ##
 Automatic CV updates will be added in the near future. 
 
-## Timeline ##
+## 8. Timeline ##
 
 This project took 3 days to be built. 
 
-## Contact ##
+## 9. Contact ##
 
 This project has been done by Anna Lalova ([LinkedIn](https://www.linkedin.com/in/anna-lalova/)), in collaboration with [Amine](https://github.com/AmineSam).
 
