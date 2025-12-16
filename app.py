@@ -114,7 +114,7 @@ with st.sidebar:
 st.title("Talk with Anna’s CV and Motivation Assistant")
 
 st.markdown("""
-This assistant helps recruiters learn about Anna’s background, CV, experience,
+[At this moment, the chatbot uses only dummy, non-real information] This assistant helps recruiters learn about Anna’s background, CV, experience,
 and general motivation as a Data Scientist, based strictly on her uploaded information. 
             
 
