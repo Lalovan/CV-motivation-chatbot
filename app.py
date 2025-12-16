@@ -106,8 +106,8 @@ with st.sidebar:
     st.markdown("---")
     st.subheader("Contact")
     st.markdown("""
-    **Email:** anna.ivailova@gmail.com  
-    **LinkedIn:** https://www.linkedin.com/in/anna-lalova/
+    
+    **LinkedIn:** 
     """)
 
 # Main Area
