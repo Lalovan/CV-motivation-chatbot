@@ -15,8 +15,8 @@ Live app: https://cv-chatbot-anna-lalo.streamlit.app
 Example usage: 
 
 - "What is Anna's experience with machine learning?"
-- "Wat is zijn ervaring met Python?"
-- "Quelle est expérience en data science?"
+- "Wat is haar ervaring met Python?"
+- "Quelle est son expérience en data science?"
 
 ## 2. Installation ##
 
