@@ -29,11 +29,23 @@ Example usage:
 
 Recruiters often want fast, targeted insight about a candidate’s experience and specific contribution the candidate may have to the company. 
 
-In a creative way, this project solves that by turning my CV and carefully prepared information into an intelligent multilingual assistant that provides instant, grounded answers about my experience and general professional motivation as a Data Scientist. This format aims to invite engagement, 
+In a creative way, this project solves that by turning my CV and carefully prepared information into an intelligent multilingual assistant that provides instant, grounded answers about my experience and general professional motivation as a Data Scientist. 
 
-This format aims to make the exchange feel personal and to invite engagement. As an added value, a way to show case depth of some of my skills and my enthusiasm to build solutions. 
+This format aims to make the exchange feel personal, to invite engagement and curiosity! As an added value, a way to show case depth of some of my skills and my enthusiasm to build solutions. 
 
-***NB! The assistant does not give insights about the motivation for a specific job opening, as this is naturally a part of the interview stage.***
+**A few honest questions (and equally honest answers)**
+
+Why use an assistant at all instead of just reading the CV or talking to the candidate directly?
+
+Nothing beats a real conversation, and this project is not trying to compete with one.
+The assistant simply removes the (boring) CV reading part by answering quick, factual questions instantly so that human attention can be saved for what actually matters (discussion, interpretation, and chemistry). So let's think of it as a well-prepared introduction.
+
+Isn’t this automating something that should stay personal?
+
+The chatbot uses only information that the candidate is comfortable with. Moreover, this information is safely stored and not showcased.
+Job-specific motivation, nuance, and job-specific intent are very intentionally not automated. Those belong in an interview room, not in a prompt. The assistant handles consistency, availability, and multilingual access.
+
+... And personal connection is still a human-only feature (and proudly so).
 
 
 ## 4. Key Features ##
