@@ -35,12 +35,12 @@ This format aims to make the exchange feel personal, to invite engagement and cu
 
 **A few honest questions (and equally honest answers)**
 
-Why use an assistant at all instead of just reading the CV or talking to the candidate directly?
+- Why use an assistant at all instead of just reading the CV or talking to the candidate directly?
 
 Nothing beats a real conversation, and this project is not trying to compete with one.
 The assistant simply removes the (boring) CV reading part by answering quick, factual questions instantly so that human attention can be saved for what actually matters (discussion, interpretation, and chemistry). So let's think of it as a well-prepared introduction.
 
-Isn’t this automating something that should stay personal?
+- Isn’t this automating something that should stay personal?
 
 The chatbot uses only information that the candidate is comfortable with. Moreover, this information is safely stored and not showcased.
 Job-specific motivation, nuance, and job-specific intent are very intentionally not automated. Those belong in an interview room, not in a prompt. The assistant handles consistency, availability, and multilingual access.
