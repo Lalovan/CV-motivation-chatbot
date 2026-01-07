@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
 At a Glance: 
-A retrieval-grounded LLM assistant that answers questions about my CV and professional motivation as a Data Scientist, in any language.
+A retrieval-grounded LLM assistant that answers questions about my CV and professional motivation to be a Data Scientist, in any language.
 
 ## 1. Introduction and Demo ##
 
