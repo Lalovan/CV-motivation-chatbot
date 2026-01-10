@@ -10,7 +10,7 @@ A retrieval-grounded LLM assistant that answers questions about my CV and profes
 
 ## 1. Introduction and Demo ##
 
-Live app: https://cv-chatbot-anna-lalo.streamlit.app
+Live app: https://cv-chatbot-anna-lalo.streamlit.app (not active at the moment)
 
 Example usage: 
 
