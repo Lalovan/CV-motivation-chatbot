@@ -26,14 +26,14 @@ Example usage:
 - Git
 - A Groq API key (for LLM inference)
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 ```
 git clone https://github.com/Lalovan/CV-motivation-chatbot.git
 cd your-repo-name
 ```
 
-### 2. Create and Activate a Virtual Environment
+#### 2. Create and Activate a Virtual Environment
 
 ```
 python -m venv venv
@@ -41,13 +41,13 @@ source venv/bin/activate   # macOS / Linux
 venv\Scripts\activate      # Windows
 ```
 
-### 3. Install dependencies
+#### 3. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### 4.Configure Environment Variables (Local Testing)
+#### 4.Configure Environment Variables (Local Testing)
 
 Create a ```.env``` file in the project root:
 
@@ -60,7 +60,7 @@ This content will be embedded locally and used for retrieval.
 ```
 **IMPORTANT:** The ```.env``` file must **never** be committed to GitHub. It is listed in ```.gitignore```.
 
-### 5. Run the Application
+#### 5. Run the Application
 
 ```
 streamlit run app.py
@@ -68,7 +68,7 @@ streamlit run app.py
 The app will be available at: ```http://localhost:XXXX```
 
 
-### 6. Deployment to Streamlit Cloud
+#### 6. Deployment to Streamlit Cloud
 
 This application is deployed using Streamlit Cloud, which is directly linked to the GitHub repository.
 For production deployment, environment variables are securely stored in the Streamlit Secrets Manager instead of ```.env``` files.
@@ -131,7 +131,31 @@ Job-specific motivation, nuance, and job-specific intent are very intentionally 
 
 ## 5. System Architecture ##
 
-XXXXXXXXXXX
+### Components
+
+#### 1. Streamlit Frontend
+- Provides a chat-based user interface
+- Displays conversation history
+- Collects recruiter questions
+
+#### 2. Secure Data Storage
+- CV and personal information are stored **ONLY** in:
+  - Local `.env` (development)
+  - Streamlit Secrets Manager (production)
+- No CV data is committed to GitHub or sent to third-party services
+
+#### 3. Embedding & Retrieval Layer
+- CV text is split into small overlapping chunks
+- Chunks are embedded using `SentenceTransformers`
+- FAISS performs fast vector similarity search
+- Only the **top-k relevant chunks** are retrieved per query
+
+#### 4. External LLM (Groq)
+- Receives:
+  - User question
+  - Retrieved context chunks
+- Does **NOT** receive the full CV
+- Generates a concise, context-aware response
 
 ## 6. Tech Stack ##
 
