@@ -18,12 +18,85 @@ Example usage:
 - "Wat is haar ervaring met Python?"
 - "Quelle est son expérience en data science?"
 
-## 2. Installation ##
+## 2. Installation and Deployment to Streamlit Cloud ##
+
+### Prerequisites
+
+- See requirements.txtx
+- Git
+- A Groq API key (for LLM inference)
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/Lalovan/CV-motivation-chatbot.git
+cd your-repo-name
+```
+
+### 2. Create and Activate a Virtual Environment
+
+```
+python -m venv venv
+source venv/bin/activate   # macOS / Linux
+venv\Scripts\activate      # Windows
+```
+
+### 3. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4.Configure Environment Variables (Local Testing)
+
+Create a ```.env``` file in the project root:
+
+```
+GROQ_API_KEY=your_groq_api_key_here
+MY_CV_TEXT="""
+Paste your CV text here.
+This content will be embedded locally and used for retrieval.
+"""
+```
+**IMPORTANT:** The ```.env``` file must **never** be committed to GitHub. It is listed in ```.gitignore```.
+
+### 5. Run the Application
+
+```
+streamlit run app.py
+```
+The app will be available at: ```http://localhost:XXXX```
 
 
+### 6. Deployment to Streamlit Cloud
+
+This application is deployed using Streamlit Cloud, which is directly linked to the GitHub repository.
+For production deployment, environment variables are securely stored in the Streamlit Secrets Manager instead of ```.env``` files.
+
+**Deployment Workflow**
+
+1. The source code is pushed to GitHub (without any secrets or personal data).
+2. Streamlit Cloud pulls the repository and installs dependencies from `requirements.txt`.
+3. Sensitive information (API keys, CV content) is injected securely via the **Streamlit Secrets Manager**.
+4. The application is deployed and publicly accessible via a Streamlit-hosted URL.
+
+This setup ensures a clear separation between:
+- Code (public, version-controlled)
+- Sensitive data(private, encrypted, never committed)
 
 
+**Streamlit Secrets Configuration**
 
+For deployment, the following secrets must be configured in the Streamlit Cloud dashboard:
+
+```toml
+GROQ_API_KEY = "your-groq-api-key"
+
+MY_CV_TEXT = """
+Full CV content, including experience, publications,
+skills, and motivation.
+"""
+```
 
 ## 3. What problem does it solve? ##
 
