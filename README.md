@@ -10,13 +10,16 @@ A retrieval-grounded LLM assistant that answers questions about my CV and profes
 
 ## 1. Introduction and Demo ##
 
-Live app: https://cv-chatbot-anna-lalo.streamlit.app (not active at the moment)
+Live app: [not active at the moment]
 
 Example usage: 
 
 - "What is Anna's experience with machine learning?"
 - "Wat is haar ervaring met Python?"
 - "Quelle est son expérience en data science?"
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/29337231-251c-47e0-a1a5-3299895eef24" />
+
 
 ## 2. Installation and Deployment to Streamlit Cloud ##
 
