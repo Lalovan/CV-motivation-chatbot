@@ -22,7 +22,7 @@ Example usage:
 
 ### Prerequisites
 
-- See requirements.txtx
+- See requirements.txt
 - Git
 - A Groq API key (for LLM inference)
 
