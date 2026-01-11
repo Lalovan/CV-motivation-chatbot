@@ -10,7 +10,7 @@ A retrieval-grounded LLM assistant that answers questions about my CV and profes
 
 ## 1. Introduction and Demo ##
 
-Live app: [not active at the moment]
+Live app: [to be activated for specific job showcases]
 
 Example usage: 
 
