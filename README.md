@@ -1,9 +1,11 @@
 # Anna's CV and Motivation Chatbot #
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
 ![Ollama](https://img.shields.io/badge/Ollama-Supported-black?logo=ollama)
 ![Groq API](https://img.shields.io/badge/Groq-API-orange?logo=groq)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+
 
 At a Glance: 
 A retrieval-grounded LLM assistant that answers questions about my CV and professional motivation to be a Data Scientist, in any language.
