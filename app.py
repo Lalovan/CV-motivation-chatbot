@@ -52,8 +52,6 @@ Answer ONLY using the information in the context.
 If there are web links provided in a related part, provide also the links in your replies. 
 Format your reply in short, readable paragraphs (1-4 sentences each paragraph).
 Limit your answer to a maximum of ~130 words and 2 paragraphs maximum.
-Avoid breaking URLs, web links to publications, and when there is - across lines.
-Put URLs of publications as hyperlinks to the respective publication.
 If an answer is not found in the context, clearly say that the information is not available and recommend referring directly to Anna by using the contact information provided.
 If a recruiter asks about a skill not mentioned in the resume, explain how quickly Anna would be able to learn it based on what is in the context.
 This chatbot is made by Anna.
@@ -96,7 +94,6 @@ with st.sidebar:
     st.markdown("""
     **Example Questions (non-exhaustive list)**
     - What work experience does Anna have?
-    - What publications did Anna work on?
     - What programming languages does Anna know?
     - What soft skills does Anna have?
     - What experience does she have with Machine Learning?
@@ -114,7 +111,7 @@ with st.sidebar:
 st.title("Talk with Anna’s CV and Motivation Assistant")
 
 st.markdown("""
-[At this moment, the chatbot uses only dummy, non-real information] This assistant helps recruiters learn about Anna’s background, CV, experience,
+This assistant helps recruiters learn about Anna’s background, CV, experience,
 and general motivation as a Data Scientist, based strictly on her uploaded information. 
             
 
