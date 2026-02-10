@@ -89,7 +89,7 @@ st.set_page_config(page_title="Anna's CV and Motivation Assistant", layout="wide
 
 # Sidebar
 with st.sidebar:
-    st.title("Anna Lalova's CV Bot")
+    st.title("Anna's CV Bot")
 
     st.markdown("""
     **Example Questions (non-exhaustive list)**
